@@ -6,6 +6,13 @@ use Illuminate\Http\Request;
 
 class AppController extends Controller
 {
+    //register login
+    public function register()
+    {
+        return view('register');
+    }
+    
+    //pencarian
     public function pencarianPage()
     {
         return view('pencarian');

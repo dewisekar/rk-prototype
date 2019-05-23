@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//register login
+Route::get('register', 'AppController@register');
+
+
+//cari
 Route::get('pencarian', 'AppController@pencarianPage');
 Route::get('lihat-tahun', 'AppController@tahunPage');
 Route::get('lihat-bidang', 'AppController@bidangPage');
