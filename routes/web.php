@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('pencarian', 'AppController@pencarianPage');
+Route::get('lihat-tahun', 'AppController@tahunPage');
+Route::get('lihat-bidang', 'AppController@bidangPage');
+Route::get('lihat-fakultas-departemen', 'AppController@fakdepPage');

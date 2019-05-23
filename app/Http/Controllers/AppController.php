@@ -10,4 +10,19 @@ class AppController extends Controller
     {
         return view('pencarian');
     }
+
+    public function tahunPage()
+    {
+        return view('tahun');
+    }
+
+    public function bidangPage()
+    {
+        return view('bidang');
+    }
+
+    public function fakdepPage()
+    {
+        return view('fakdep');
+    }
 }
