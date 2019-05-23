@@ -28,7 +28,7 @@
             <a class="mb-3 text-white"  href="../">Kembali ke home</a>
             <div class="row mt-0">
                 <div class="col-lg-8 col-md-8 ml-auto mr-auto">
-                    <form action="#">
+                    <form action="../registersuccess">
 						<div class="mt-10">
 							<input type="text" name="" placeholder="Nama Lengkap" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nama Lengkap'"
 							 required class="single-input">
@@ -94,7 +94,7 @@
 							 required class="single-input-secondary">
                         </div>
                         <div class="mt-10">
-                            <a href="../login" class="genric-btn primary circle">Primary</a>
+                            <button type="submit" class="genric-btn primary circle">Register</button>
                         </div>                        
 					</form>
                 </div>

@@ -11,7 +11,16 @@ class AppController extends Controller
     {
         return view('register');
     }
+    public function registerSuccess()
+    {
+        return redirect('/login')->with('success', 'Berhasil register. Silahkan login!');
+    }
+    public function login()
+    {
+        return view('login');
+    }
     
+
     //pencarian
     public function pencarianPage()
     {

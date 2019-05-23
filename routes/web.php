@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 //register login
 Route::get('register', 'AppController@register');
+Route::get('registersuccess', 'AppController@registerSuccess');
+Route::get('login', 'AppController@login');
 
 
 //cari
