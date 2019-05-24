@@ -21,24 +21,24 @@
 
   <body>
     <!--================ Start Header Menu Area =================-->
-    <header class="header_area white-header">
-        <div class="main_menu">
+    <header class="header_area white-header"> 
+        <div class="main_menu" style="background-color: maroon">
             <div class="search_input" id="search_input_box">
                 <div class="container">
-                    <form class="d-flex justify-content-between" method="" action="hasil">
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="search_input"
-                            placeholder="Search Here"
-                        />
-                        <button type="submit" class="btn"></button>
-                        <span
-                            class="ti-close"
-                            id="close_search"
-                            title="Close Search"
-                        ></span>
-                    </form>
+                    <form class="d-flex justify-content-between" method="GET" action="hasil">
+						<input
+							type="text"
+							class="form-control"
+							id="search_input"
+							placeholder="Search Here"
+						/>
+						<button type="submit" class="btn"></button>
+						<span
+							class="ti-close"
+							id="close_search"
+							title="Close Search"
+						></span>
+					</form>
                 </div>
             </div>
 
@@ -68,10 +68,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="../">Home</a>
                             </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="../admin-home">Dashboard</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../tentang">Tentang</a>
                             </li>
-                            <li class="nav-item submenu dropdown active">
+                            <li class="nav-item submenu dropdown">
                                 <a
                                     href="#"
                                     class="nav-link dropdown-toggle"
@@ -95,11 +98,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../register">Register</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../verifikasi">Verifikasi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../login">Login</a>
+                                <a class="nav-link" href="../admin-login">Logout</a>
                             </li>							
                             <li class="nav-item">
                                 <a href="#" class="nav-link search" id="search">
@@ -114,58 +117,49 @@
     </header>
     <!--================ End Header Menu Area =================-->
 
-    <!--================Home Banner Area =================-->
-    <section class="banner_area">
-      <div class="banner_inner d-flex align-items-center">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="banner_content text-center">
-                <h2>Pencarian - Bidang</h2>
-                <div class="page_link">
-                  <a href="../">Home</a>
-                  <a href="../pencarian">Pencarian</a>
-                  <a href="../lihat-bidang">Bidang</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Home Banner Area =================-->
-
     <!--================ Start About Area =================-->
     <section class="about_area section_gap">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="main_title">
-                        <h2 class="mb-3">Cari berdasar bidang</h2>
-                        <p> Pilih salah satu bidang di bawah ini</p>
-                    </div>
+            @if (session( 'success'))
+                <div class="alert alert-success mb-3" role="alert">
+                    {{session('success')}}
+                </div>
+            @endif
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4 class="mb-3">Daftar buku belum terverifikasi:</h4>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <ul class="text-left" style="list-style-position: inside;">
-                        <li><a href="../hasil">Struktur Air</a></li>
-                        <li><a href="../hasil">Teknologi Lepas Pantai</a></li>
-                        <li><a href="../hasil">Pengelasan</a></li>
-                        <li><a href="../hasil">Energi Laut</a></li>
-                        <li><a href="../hasil">Struktur Kapal</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-6 col-md-6">
-                    <ul class="text-left" style="list-style-position: inside;">
-                        <li><a href="../hasil">Algoritma Pemrograman</a></li>
-                        <li><a href="../hasil">Jaringan</a></li>
-                        <li><a href="../hasil">Internet of Things</a></li>
-                        <li><a href="../hasil">Big Data</a></li>
-                        <li><a href="../hasil">Data Mining</a></li>
-                    </ul>
+                <div class="col-lg-12 col-md-12">
+                    <table style="width: 100%" class="pl-1 pr-1">
+                        <tr>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">No.</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Judul</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Tahun Pembuatan</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Author</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Bidang</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Divisi</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Tanggal Upload</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Tanggal Terakhir Diubah</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">File</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Status Verifikasi</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Detail</th>
+                        </tr> 
+                        <tr>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">1.</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1"><a href="../detail-verifikasi">Analisis Risk Based Inspection (RBI) Pada Subsea Pipeline Akibat Upheaval Buckling</a></td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">2019</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">Yumm, Cindy Diniharziany</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1"></td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">FTK - T. Kelautan - S1</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">19 Maret 2019</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">19 Maret 2019</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">FTK_T. Kelautan_2019_ANALISIS RISK BASED INSPECTION (RBI) PADA SUBSEA PIPELINE AKIBAT UPHEAVAL BUCKLING.pdf</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">Belum</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1"><a href="../detail-verifikasi" class="genric-btn info circle">Detail</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
       </div>

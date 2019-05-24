@@ -21,8 +21,8 @@
 
   <body>
     <!--================ Start Header Menu Area =================-->
-    <header class="header_area white-header">
-        <div class="main_menu">
+    <header class="header_area white-header"> 
+        <div class="main_menu" style="background-color: maroon">
             <div class="search_input" id="search_input_box">
                 <div class="container">
                     <form class="d-flex justify-content-between" method="" action="hasil">
@@ -68,10 +68,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="../">Home</a>
                             </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../admin-home">Dashboard</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../tentang">Tentang</a>
                             </li>
-                            <li class="nav-item submenu dropdown active">
+                            <li class="nav-item submenu dropdown">
                                 <a
                                     href="#"
                                     class="nav-link dropdown-toggle"
@@ -95,11 +98,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../register">Register</a>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="../verifikasi">Verifikasi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../login">Login</a>
+                                <a class="nav-link" href="../admin-login">Logout</a>
                             </li>							
                             <li class="nav-item">
                                 <a href="#" class="nav-link search" id="search">
@@ -122,11 +125,9 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>Pencarian - Bidang</h2>
+                <h2>Selamat datang di dashboard admin!</h2>
                 <div class="page_link">
-                  <a href="../">Home</a>
-                  <a href="../pencarian">Pencarian</a>
-                  <a href="../lihat-bidang">Bidang</a>
+                  <a href="../home">Dashboard Admin</a>
                 </div>
               </div>
             </div>
@@ -135,43 +136,6 @@
       </div>
     </section>
     <!--================End Home Banner Area =================-->
-
-    <!--================ Start About Area =================-->
-    <section class="about_area section_gap">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="main_title">
-                        <h2 class="mb-3">Cari berdasar bidang</h2>
-                        <p> Pilih salah satu bidang di bawah ini</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <ul class="text-left" style="list-style-position: inside;">
-                        <li><a href="../hasil">Struktur Air</a></li>
-                        <li><a href="../hasil">Teknologi Lepas Pantai</a></li>
-                        <li><a href="../hasil">Pengelasan</a></li>
-                        <li><a href="../hasil">Energi Laut</a></li>
-                        <li><a href="../hasil">Struktur Kapal</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-6 col-md-6">
-                    <ul class="text-left" style="list-style-position: inside;">
-                        <li><a href="../hasil">Algoritma Pemrograman</a></li>
-                        <li><a href="../hasil">Jaringan</a></li>
-                        <li><a href="../hasil">Internet of Things</a></li>
-                        <li><a href="../hasil">Big Data</a></li>
-                        <li><a href="../hasil">Data Mining</a></li>
-                    </ul>
-                </div>
-            </div>
-      </div>
-    </section>
-    <!--================ End About Area =================-->
-
 
     <!--================ Start footer Area  =================-->
     <footer class="footer-area section_gap">

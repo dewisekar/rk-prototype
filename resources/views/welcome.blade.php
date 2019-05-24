@@ -148,16 +148,15 @@
 				<h4>Cari tugas akhir</h4>
 				<div class="form-wrap" id="mc_embed_signup">
 					<form
-						target="_blank"
-						action="#"
+						action="hasil"
 						method="get"
 						class="form-inline"
 					>
 						<input
 						class="form-control"
-						name="EMAIL" placeholder="Masukkan kata kunci"
+						name="" placeholder="Masukkan kata kunci" type="text"
 						/>
-						<button class="click-btn btn btn-default">
+						<button type="submit" class="click-btn btn btn-default">
 						<span>Cari</span>
 						</button>
 					</form>

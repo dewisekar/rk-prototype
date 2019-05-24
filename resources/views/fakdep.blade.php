@@ -151,47 +151,47 @@
                 <div class="col-md-6">
                     <ul class="text-left" style="list-style-position: inside;">
                         <li>
-                            <a href="../fakultas-departemen/hasil">Fakultas Ilmu Alam</a>
+                            <a href="../hasil">Fakultas Ilmu Alam</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">Fisika</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Kimia</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Biologi</a></li>
+                                <li><a href="../hasil">Fisika</a></li>
+                                <li><a href="../hasil">Kimia</a></li>
+                                <li><a href="../hasil">Biologi</a></li>
                             </ul>
                         </li>
                         <li class="mt-2">
-                            <a href="../fakultas-departemen/hasil">Fakultas Teknologi Industri</a>
+                            <a href="../hasil">Fakultas Teknologi Industri</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">T. Mesin</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Kimia</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Fisika</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Industri</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Material</a></li>
+                                <li><a href="../hasil">T. Mesin</a></li>
+                                <li><a href="../hasil">T. Kimia</a></li>
+                                <li><a href="../hasil">T. Fisika</a></li>
+                                <li><a href="../hasil">T. Industri</a></li>
+                                <li><a href="../hasil">T. Material</a></li>
                             </ul>
                         </li>
                         <li class="mt-2">
-                            <a href="../fakultas-departemen/hasil">Fakultas Teknologi Sipil dan Kebumian</a>
+                            <a href="../hasil">Fakultas Teknologi Sipil dan Kebumian</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">T. Sipil</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Lingkungan</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Geomatika</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Geofisika</a></li>
+                                <li><a href="../hasil">T. Sipil</a></li>
+                                <li><a href="../hasil">T. Lingkungan</a></li>
+                                <li><a href="../hasil">T. Geomatika</a></li>
+                                <li><a href="../hasil">T. Geofisika</a></li>
                             </ul>
                         </li>
                         <li class="mt-2">
-                            <a href="../fakultas-departemen/hasil">Fakultas Teknologi Kelautan</a>
+                            <a href="../hasil">Fakultas Teknologi Kelautan</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">T. Perkapalan</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Sistem Perkapalan</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Kelautan</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Transportasi Laut</a></li>
+                                <li><a href="../hasil">T. Perkapalan</a></li>
+                                <li><a href="../hasil">T. Sistem Perkapalan</a></li>
+                                <li><a href="../hasil">T. Kelautan</a></li>
+                                <li><a href="../hasil">T. Transportasi Laut</a></li>
                             </ul>
                         </li>
                         <li class="mt-2"> 
-                            <a href="../fakultas-departemen/hasil">Fakultas Teknologi Informasi dan Komunikasi</a>
+                            <a href="../hasil">Fakultas Teknologi Informasi dan Komunikasi</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">Informatika</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Sistem Informasi</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Teknologi Informasi</a></li>
+                                <li><a href="../hasil">Informatika</a></li>
+                                <li><a href="../hasil">Sistem Informasi</a></li>
+                                <li><a href="../hasil">Teknologi Informasi</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -199,47 +199,47 @@
                 <div class="col-md-6">
                     <ul class="text-left" style="list-style-position: inside;">
                         <li>
-                            <a href="../fakultas-departemen/hasil">Fakultas Matematika, Komputasi, dan Sains Data</a>
+                            <a href="../hasil">Fakultas Matematika, Komputasi, dan Sains Data</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">Matematika</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Statistika</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Aktuaria</a></li>
+                                <li><a href="../hasil">Matematika</a></li>
+                                <li><a href="../hasil">Statistika</a></li>
+                                <li><a href="../hasil">Aktuaria</a></li>
                             </ul>
                         </li>
                         <li class="mt-2">
-                            <a href="../fakultas-departemen/hasil">Fakultas Teknologi Elektro</a>
+                            <a href="../hasil">Fakultas Teknologi Elektro</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">T. Elektro</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Komputer</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Biomedik</a></li>
+                                <li><a href="../hasil">T. Elektro</a></li>
+                                <li><a href="../hasil">T. Komputer</a></li>
+                                <li><a href="../hasil">T. Biomedik</a></li>
                             </ul>
                         </li>
                         <li class="mt-2">
-                            <a href="../fakultas-departemen/hasil">Fakultas Arsitektur dan Perencanaan</a>
+                            <a href="../hasil">Fakultas Arsitektur dan Perencanaan</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">Arsitektur</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Perencanaan Wilayah dan Kota</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Desain Produk</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Desain Interior</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Desain Komunikasi Visual</a></li>
+                                <li><a href="../hasil">Arsitektur</a></li>
+                                <li><a href="../hasil">Perencanaan Wilayah dan Kota</a></li>
+                                <li><a href="../hasil">Desain Produk</a></li>
+                                <li><a href="../hasil">Desain Interior</a></li>
+                                <li><a href="../hasil">Desain Komunikasi Visual</a></li>
                             </ul>
                         </li>
                         <li class="mt-2">
-                            <a href="../fakultas-departemen/hasil">Fakultas Bisnis dan Manajemen Teknik</a>
+                            <a href="../hasil">Fakultas Bisnis dan Manajemen Teknik</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">Manajemen Bisnis</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Manajemen Teknik</a></li>
+                                <li><a href="../hasil">Manajemen Bisnis</a></li>
+                                <li><a href="../hasil">Manajemen Teknik</a></li>
                             </ul>
                         </li>
                         <li class="mt-2"> 
-                            <a href="../fakultas-departemen/hasil">Fakultas Vokasi</a>
+                            <a href="../hasil">Fakultas Vokasi</a>
                             <ul>
-                                <li><a href="../fakultas-departemen/hasil">T. Infrastruktur Sipil</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Mesin Industri</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Elektro Otomasi</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Kimia Industri</a></li>
-                                <li><a href="../fakultas-departemen/hasil">T. Instrumentasi</a></li>
-                                <li><a href="../fakultas-departemen/hasil">Statistika Bisnis</a></li>
+                                <li><a href="../hasil">T. Infrastruktur Sipil</a></li>
+                                <li><a href="../hasil">T. Mesin Industri</a></li>
+                                <li><a href="../hasil">T. Elektro Otomasi</a></li>
+                                <li><a href="../hasil">T. Kimia Industri</a></li>
+                                <li><a href="../hasil">T. Instrumentasi</a></li>
+                                <li><a href="../hasil">Statistika Bisnis</a></li>
                             </ul>
                         </li>
                     </ul>
