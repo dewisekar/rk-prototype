@@ -68,7 +68,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="../">Home</a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="../home">Dashboard</a>
                             </li>
                             <li class="nav-item">
@@ -98,7 +98,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="../upload">Upload Tugas Akhir</a>
                             </li>
                             <li class="nav-item">
