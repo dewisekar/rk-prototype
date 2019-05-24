@@ -72,6 +72,10 @@ class AppController extends Controller
     {
         return view('hasil');
     }
+    public function successUpload()
+    {
+        return redirect('/home')->with('success', 'Tugas akhir berhasil diunggah. Silahkan menunggu status verifikasi admin');
+    }
 
     //user
     public function adminHome()

@@ -140,6 +140,11 @@
     <!--================ Start About Area =================-->
     <section class="about_area section_gap">
         <div class="container">
+            @if (session( 'success'))
+                <div class="alert alert-success mb-3" role="alert">
+                    {{session('success')}}
+                </div>
+            @endif
             <div class="row">
                 <div class="col-lg-12">
                     <h4 class="mb-3">Daftar bukumu:</h4>

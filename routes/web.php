@@ -33,6 +33,7 @@ Route::get('detail-ta', 'AppController@detailTA');
 Route::get('home', 'AppController@userHome');
 Route::get('upload', 'AppController@userUpload');
 Route::get('hasil', 'AppController@hasil');
+Route::get('uploadsuccess', 'AppController@successUpload');
 
 //admin
 Route::get('admin-home', 'AppController@adminHome');

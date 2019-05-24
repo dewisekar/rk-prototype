@@ -124,7 +124,7 @@
             <h2 class="mb-2 text-white text-center">Upload Tugas Akhir</h2>
             <div class="row mt-0">
                 <div class="col-lg-8 col-md-8 ml-auto mr-auto">
-                    <form action="../registersuccess">
+                    <form action="../uploadsuccess">
 						<div class="mt-10 text-left ">
                             <label class="text-white"> Judul </label>
 							<input type="text" name="" placeholder="Judul" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Judul'"
