@@ -25,7 +25,7 @@
         <div class="main_menu">
             <div class="search_input" id="search_input_box">
                 <div class="container">
-                    <form class="d-flex justify-content-between" method="" action="hasil">
+                    <form class="d-flex justify-content-between" method="GET" action="hasil">
                         <input
                             type="text"
                             class="form-control"
@@ -122,11 +122,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>Pencarian - Bidang</h2>
+                <h2>Pencarian</h2>
                 <div class="page_link">
                   <a href="../">Home</a>
                   <a href="../pencarian">Pencarian</a>
-                  <a href="../lihat-bidang">Bidang</a>
                 </div>
               </div>
             </div>
@@ -142,32 +141,26 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="main_title">
-                        <h2 class="mb-3">Cari berdasar bidang</h2>
-                        <p> Pilih salah satu bidang di bawah ini</p>
+                        <h2 class="mb-3">Hasil Pencarian  <span>"ANALISA" </span></h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <ul class="text-left" style="list-style-position: inside;">
-                        <li><a href="../bidang/hasil">Struktur Air</a></li>
-                        <li><a href="../bidang/hasil">Teknologi Lepas Pantai</a></li>
-                        <li><a href="../bidang/hasil">Pengelasan</a></li>
-                        <li><a href="../bidang/hasil">Energi Laut</a></li>
-                        <li><a href="../bidang/hasil">Struktur Kapal</a></li>
-                    </ul>
+            <a href="detail-ta">
+            <div class="row" style="background: #f2f4f7; border-radius: 10px" >
+                <div class="col-3" >
+                    <img src="img/TA_TEKLA_HATTA.JPG" height="300" width="200" style="padding: 15px">
                 </div>
+                <div class="col-9" style="padding: 15px">
+                    <h2>ANALISA RISK BASED INSPECTION(RBI) PADA SUBSEA PIPELINE AKIBAT UPHEAVAL BUCKLING</h2> 
 
-                <div class="col-lg-6 col-md-6">
-                    <ul class="text-left" style="list-style-position: inside;">
-                        <li><a href="../bidang/hasil">Algoritma Pemrograman</a></li>
-                        <li><a href="../bidang/hasil">Jaringan</a></li>
-                        <li><a href="../bidang/hasil">Internet of Things</a></li>
-                        <li><a href="../bidang/hasil">Big Data</a></li>
-                        <li><a href="../bidang/hasil">Data Mining</a></li>
-                    </ul>
+                    <p>
+
+                      Yumm, Cindy Diniharziany (2019) Analisis Risk Based Inspection (RBI) Pada Subsea Pipeline Akibat Upheaval Buckling
+                    </p>
+
+                    <a href="detail-ta">Lihat Selengkapnya ..</a>
                 </div>
-            </div>
+            </div></a>
       </div>
     </section>
     <!--================ End About Area =================-->

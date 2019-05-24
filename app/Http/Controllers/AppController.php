@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class AppController extends Controller
 {
     //register login
+
+
     public function register()
     {
         return view('register');
@@ -56,5 +58,10 @@ class AppController extends Controller
     public function userUpload()
     {
         return view('user.user-upload');
+    }
+    
+    public function hasil()
+    {
+        return view('hasil');
     }
 }

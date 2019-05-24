@@ -31,3 +31,4 @@ Route::get('detail-ta', 'AppController@detailTA');
 //user
 Route::get('home', 'AppController@userHome');
 Route::get('upload', 'AppController@userUpload');
+Route::get('hasil', 'AppController@hasil');
