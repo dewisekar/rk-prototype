@@ -27,3 +27,4 @@ Route::get('lihat-tahun', 'AppController@tahunPage');
 Route::get('lihat-bidang', 'AppController@bidangPage');
 Route::get('lihat-fakultas-departemen', 'AppController@fakdepPage');
 Route::get('detail-ta', 'AppController@detailTA');
+Route::get('hasil', 'AppController@hasil');
