@@ -24,7 +24,7 @@
 		<div class="main_menu">
 			<div class="search_input" id="search_input_box">
 				<div class="container">
-					<form class="d-flex justify-content-between" method="" action="">
+					<form class="d-flex justify-content-between" method="GET" action="hasil">
 						<input
 							type="text"
 							class="form-control"
