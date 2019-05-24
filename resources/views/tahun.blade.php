@@ -25,20 +25,20 @@
         <div class="main_menu">
             <div class="search_input" id="search_input_box">
                 <div class="container">
-                    <form class="d-flex justify-content-between" method="" action="">
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="search_input"
-                            placeholder="Search Here"
-                        />
-                        <button type="submit" class="btn"></button>
-                        <span
-                            class="ti-close"
-                            id="close_search"
-                            title="Close Search"
-                        ></span>
-                    </form>
+                    <form class="d-flex justify-content-between" method="GET" action="hasil">
+						<input
+							type="text"
+							class="form-control"
+							id="search_input"
+							placeholder="Search Here"
+						/>
+						<button type="submit" class="btn"></button>
+						<span
+							class="ti-close"
+							id="close_search"
+							title="Close Search"
+						></span>
+					</form>
                 </div>
             </div>
 
@@ -150,21 +150,21 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <ul class="text-center" style="list-style-position: inside;">
-                        <li><a href="../tahun/2019">2019</a></li>
-                        <li><a href="../tahun/2018">2018</a></li>
-                        <li><a href="../tahun/2017">2017</a></li>
-                        <li><a href="../tahun/2016">2016</a></li>
-                        <li><a href="../tahun/2015">2015</a></li>
+                        <li><a href="../hasil">2019</a></li>
+                        <li><a href="../hasil">2018</a></li>
+                        <li><a href="../hasil">2017</a></li>
+                        <li><a href="../hasil">2016</a></li>
+                        <li><a href="../hasil">2015</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-6 col-md-6">
                     <ul class="text-center" style="list-style-position: inside;">
-                        <li><a href="../tahun/2014">2014</a></li>
-                        <li><a href="../tahun/2013">2013</a></li>
-                        <li><a href="../tahun/2012">2012</a></li>
-                        <li><a href="../tahun/2011">2011</a></li>
-                        <li><a href="../tahun/2010">2010</a></li>
+                        <li><a href="../hasil">2014</a></li>
+                        <li><a href="../hasil">2013</a></li>
+                        <li><a href="../hasil">2012</a></li>
+                        <li><a href="../hasil">2011</a></li>
+                        <li><a href="../hasil">2010</a></li>
                     </ul>
                 </div>
             </div>

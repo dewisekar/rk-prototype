@@ -25,6 +25,10 @@ class AppController extends Controller
     {
         return redirect('/home');
     }
+    public function adminLogin()
+    {
+        return view('admin-login');
+    }
     
 
     //pencarian
@@ -67,5 +71,23 @@ class AppController extends Controller
     public function hasil()
     {
         return view('hasil');
+    }
+
+    //user
+    public function adminHome()
+    {
+        return view('admin.admin-home');
+    }
+    public function adminVerifikasi()
+    {
+        return view('admin.admin-verifikasi');
+    }
+    public function detailVerifikasi()
+    {
+        return view('admin.detail-verifikasi');
+    }
+    public function actionVerif()
+    {
+        return redirect('/verifikasi')->with('success', 'Tugas akhir berhasil di verifikasi');
     }
 }

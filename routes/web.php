@@ -20,6 +20,7 @@ Route::get('register', 'AppController@register');
 Route::get('registersuccess', 'AppController@registerSuccess');
 Route::get('login', 'AppController@login');
 Route::get('actionuserlogin', 'AppController@actionUserLogin');
+Route::get('admin-login', 'AppController@adminLogin');
 
 //cari
 Route::get('pencarian', 'AppController@pencarianPage');
@@ -32,3 +33,9 @@ Route::get('detail-ta', 'AppController@detailTA');
 Route::get('home', 'AppController@userHome');
 Route::get('upload', 'AppController@userUpload');
 Route::get('hasil', 'AppController@hasil');
+
+//admin
+Route::get('admin-home', 'AppController@adminHome');
+Route::get('verifikasi', 'AppController@adminVerifikasi');
+Route::get('detail-verifikasi', 'AppController@detailVerifikasi');
+Route::get('actionverif', 'AppController@actionVerif');

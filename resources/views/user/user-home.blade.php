@@ -25,20 +25,20 @@
         <div class="main_menu" style="background-color: orange">
             <div class="search_input" id="search_input_box">
                 <div class="container">
-                    <form class="d-flex justify-content-between" method="" action="">
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="search_input"
-                            placeholder="Search Here"
-                        />
-                        <button type="submit" class="btn"></button>
-                        <span
-                            class="ti-close"
-                            id="close_search"
-                            title="Close Search"
-                        ></span>
-                    </form>
+                    <form class="d-flex justify-content-between" method="GET" action="hasil">
+						<input
+							type="text"
+							class="form-control"
+							id="search_input"
+							placeholder="Search Here"
+						/>
+						<button type="submit" class="btn"></button>
+						<span
+							class="ti-close"
+							id="close_search"
+							title="Close Search"
+						></span>
+					</form>
                 </div>
             </div>
 
@@ -149,28 +149,28 @@
                 <div class="col-lg-12 col-md-12">
                     <table style="width: 100%">
                         <tr>
-                            <th style="border: 1px solid black" class="text-center">No.</th>
-                            <th style="border: 1px solid black" class="text-center">Judul</th>
-                            <th style="border: 1px solid black" class="text-center">Tahun Pembuatan</th>
-                            <th style="border: 1px solid black" class="text-center">Author</th>
-                            <th style="border: 1px solid black" class="text-center">Bidang</th>
-                            <th style="border: 1px solid black" class="text-center">Divisi</th>
-                            <th style="border: 1px solid black" class="text-center">Tanggal Upload</th>
-                            <th style="border: 1px solid black" class="text-center">Tanggal Terakhir Diubah</th>
-                            <th style="border: 1px solid black" class="text-center">File</th>
-                            <th style="border: 1px solid black" class="text-center">Status Verifikasi</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">No.</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Judul</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Tahun Pembuatan</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Author</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Bidang</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Divisi</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Tanggal Upload</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Tanggal Terakhir Diubah</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">File</th>
+                            <th style="border: 1px solid black" class="text-center pl-1 pr-1">Status Verifikasi</th>
                         </tr>
                         <tr>
-                            <td style="border: 1px solid black" class="text-center">1.</td>
-                            <td style="border: 1px solid black" class="text-center"><a href="../detail-ta">Analisis Risk Based Inspection (RBI) Pada Subsea Pipeline Akibat Upheaval Buckling</a></td>
-                            <td style="border: 1px solid black" class="text-center">2019</td>
-                            <td style="border: 1px solid black" class="text-center">Yumm, Cindy Diniharziany</td>
-                            <td style="border: 1px solid black" class="text-center"></td>
-                            <td style="border: 1px solid black" class="text-center">FTK - T. Kelautan - S1</td>
-                            <td style="border: 1px solid black" class="text-center">19 Maret 2019</td>
-                            <td style="border: 1px solid black" class="text-center">19 Maret 2019</td>
-                            <td style="border: 1px solid black" class="text-center">FTK_T. Kelautan_2019_ANALISIS RISK BASED INSPECTION (RBI) PADA SUBSEA PIPELINE AKIBAT UPHEAVAL BUCKLING.pdf</td>
-                            <td style="border: 1px solid black" class="text-center">Sudah</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">1.</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1"><a href="../detail-ta">Analisis Risk Based Inspection (RBI) Pada Subsea Pipeline Akibat Upheaval Buckling</a></td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">2019</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">Yumm, Cindy Diniharziany</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1"></td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">FTK - T. Kelautan - S1</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">19 Maret 2019</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">19 Maret 2019</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">FTK_T. Kelautan_2019_ANALISIS RISK BASED INSPECTION (RBI) PADA SUBSEA PIPELINE AKIBAT UPHEAVAL BUCKLING.pdf</td>
+                            <td style="border: 1px solid black" class="pl-1 pr-1">Sudah</td>
                         </tr>
                     </table>
                 </div>
