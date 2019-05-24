@@ -34,18 +34,18 @@
             <div class="row mt-0">
                 <div class="col-lg-8 col-md-8 ml-auto mr-auto">
                     <form action="#">
-						<div class="mt-10">
-							<input type="text" name="" placeholder="NRP/NIP" onfocus="this.placeholder = ''" onblur="this.placeholder = 'NRP/NIP'"
-							 required class="single-input">
-						</div>
-						<div class="mt-10">
-							<input type="password" name="first_name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'"
-							 required class="single-input-secondary">
-                        </div>
-                        <div class="mt-10">
-                            <a href="../login" class="genric-btn primary circle">Login</a>
-                        </div>                        
-					</form>
+                      <div class="mt-10">
+                        <input type="text" name="" placeholder="NRP/NIP" onfocus="this.placeholder = ''" onblur="this.placeholder = 'NRP/NIP'"
+                        required class="single-input">
+                      </div>
+                      <div class="mt-10">
+                        <input type="password" name="first_name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'"
+                        required class="single-input-secondary">
+                      </div>
+                      <div class="mt-10">
+                          <a href="../login" class="genric-btn primary circle">Login</a>
+                      </div>                        
+                    </form>
                 </div>
             </div>
       </div>

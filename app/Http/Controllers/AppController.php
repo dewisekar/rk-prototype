@@ -41,4 +41,9 @@ class AppController extends Controller
     {
         return view('fakdep');
     }
+
+    public function detailTA()
+    {
+        return view('detailta');
+    }
 }
