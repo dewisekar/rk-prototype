@@ -134,7 +134,7 @@
                 </div>
                 <div class="col-md-6">
                     <p>FTK_T. Kelautan_2019_ANALISIS RISK BASED INSPECTION (RBI) PADA SUBSEA PIPELINE AKIBAT UPHEAVAL BUCKLING.pdf</p>
-                    <a href="#" class="genric-btn success circle">Download</a>
+                    <a href="../files/FTK_T. Kelautan_2019_ANALISIS RISK BASED INSPECTION (RBI) PADA SUBSEA PIPELINE AKIBAT UPHEAVAL BUCKLING.pdf" class="genric-btn success circle">Download</a>
                 </div>
                 
                 <div class="col-lg-12 col-md-12">
