@@ -46,4 +46,15 @@ class AppController extends Controller
     {
         return view('detailta');
     }
+
+    //user
+    public function userHome()
+    {
+        return view('user.user-home');
+    }
+    
+    public function userUpload()
+    {
+        return view('user.user-upload');
+    }
 }
