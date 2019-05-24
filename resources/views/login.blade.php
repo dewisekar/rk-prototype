@@ -33,7 +33,7 @@
             <a class="mb-3 text-white"  href="../">Kembali ke home</a>
             <div class="row mt-0">
                 <div class="col-lg-8 col-md-8 ml-auto mr-auto">
-                    <form action="#">
+                    <form action="../actionuserlogin">
                       <div class="mt-10">
                         <input type="text" name="" placeholder="NRP/NIP" onfocus="this.placeholder = ''" onblur="this.placeholder = 'NRP/NIP'"
                         required class="single-input">
@@ -43,7 +43,7 @@
                         required class="single-input-secondary">
                       </div>
                       <div class="mt-10">
-                          <a href="../login" class="genric-btn primary circle">Login</a>
+                          <button type="submit" class="genric-btn primary circle">Login</button>
                       </div>                        
                     </form>
                 </div>

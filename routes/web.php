@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('register', 'AppController@register');
 Route::get('registersuccess', 'AppController@registerSuccess');
 Route::get('login', 'AppController@login');
-
+Route::get('actionuserlogin', 'AppController@actionUserLogin');
 
 //cari
 Route::get('pencarian', 'AppController@pencarianPage');

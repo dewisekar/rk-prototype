@@ -21,6 +21,10 @@ class AppController extends Controller
     {
         return view('login');
     }
+    public function actionUserLogin()
+    {
+        return redirect('/home');
+    }
     
 
     //pencarian
@@ -59,7 +63,7 @@ class AppController extends Controller
     {
         return view('user.user-upload');
     }
-    
+
     public function hasil()
     {
         return view('hasil');
