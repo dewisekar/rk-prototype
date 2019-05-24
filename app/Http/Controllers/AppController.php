@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class AppController extends Controller
 {
     //register login
+
+
     public function register()
     {
         return view('register');
@@ -45,5 +47,10 @@ class AppController extends Controller
     public function detailTA()
     {
         return view('detailta');
+    }
+
+    public function hasil()
+    {
+        return view('hasil');
     }
 }
