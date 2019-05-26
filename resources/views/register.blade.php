@@ -28,34 +28,37 @@
             <a class="mb-3 text-white"  href="../">Kembali ke home</a>
             <div class="row mt-0">
                 <div class="col-lg-8 col-md-8 ml-auto mr-auto">
-                    <form action="../registersuccess">
-						<div class="mt-10">
+            <form action="../registersuccess" id="myForm">
+						<div class="mt-10 text-left">
+              <label class="text-white">Nama Lengkap</label>
 							<input type="text" name="" placeholder="Nama Lengkap" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nama Lengkap'"
 							 required class="single-input">
 						</div>
-						<div class="mt-10">
+						<div class="mt-10 text-left">
+              <label class="text-white">NRP/NIP</label>
+							<input type="text" name="" placeholder="NRP/NIP" onfocus="this.placeholder = ''" onblur="this.placeholder = 'NRP/NIP'"
+							 required class="single-input-primary">
+						</div>
+						<div class="mt-10 text-left">
+                <label class="text-white">E-Mail</label>
 							<input type="email" name="" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'"
 							 required class="single-input">
-                        </div>
-                        <div class="mt-10">
-							<input type="file" name="" placeholder="Kartu Keanggotaan ITS" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kartu Keanggotaan ITS'"
-							 required class="single-input">
-						</div>
-						<div class="input-group-icon mt-10">
-                            <div class="icon"><i class="fas fa-school" aria-hidden="true"></i></div>
+            </div>            
+						<div class="input-group-icon mt-10 text-left">
+              <label class="text-white">Fakultas</label>
 							<div class="form-select" id="default-select">
 								<select>
 									<option value="1">Fakultas</option>
 									<option value="1">FIA</option>
 									<option value="1">FTI</option>
 									<option value="1">FTSLK</option>
-                                    <option value="1">FTK</option>
-                                    <option value="1">FTIK</option>
+                  <option value="1">FTK</option>
+                  <option value="1">FTIK</option>
 								</select>
 							</div>
 						</div>
-						<div class="input-group-icon mt-10">
-							<div class="icon"><i class="ti-map" aria-hidden="true"></i></div>
+						<div class="input-group-icon mt-10 text-left">
+              <label class="text-white">Departemen</label>
 							<div class="form-select" id="default-select2">
 								<select>
 									<option value="1">Departemen</option>
@@ -65,40 +68,43 @@
 									<option value="1">T. Transportasi Laut</option>
 								</select>
 							</div>
-                        </div>
-                        <div class="input-group-icon mt-10">
-							<div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+            </div><div class="mt-10 text-left">
+              <label class="text-white">Tanggal Lahir</label>
+							<input type="date" name="" placeholder="Tanggal Lahir" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tanggal Lahir'"
+							 required class="single-input">
+            </div>
+            <div class="input-group-icon mt-10 text-left">
+              <label class="text-white">Jenis Anggota</label>
 							<div class="form-select" id="default-select2">
 								<select>
-									<option value="1">Jabatan</option>
+									<option value="1">Jenis Anggota</option>
 									<option value="1">Dosen</option>
 									<option value="1">Tenaga Didik</option>
 									<option value="1">Mahasiswa</option>
 								</select>
 							</div>
 						</div>
-						<div class="mt-10">
-							<input type="text" name="" placeholder="NRP/NIP" onfocus="this.placeholder = ''" onblur="this.placeholder = 'NRP/NIP'"
-							 required class="single-input-primary">
+            <div class="mt-10 text-left">
+              <label class="text-white">Scan/Foto Kartu Keanggotaan ITS</label>
+							<input type="file" id="kartu" name="" placeholder="Kartu Keanggotaan ITS" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kartu Keanggotaan ITS'"
+							 required class="single-input">
 						</div>
-						<div class="mt-10">
-							<input type="text" name="first_name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'"
-							 required class="single-input-accent">
-						</div>
-						<div class="mt-10">
+						<div class="mt-10 text-left">
+              <label class="text-white">Password</label>
 							<input type="password" name="first_name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'"
 							 required class="single-input-secondary">
-                        </div>
-                        <div class="mt-10">
+            </div>
+            <div class="mt-10 text-left">
+              <label class="text-white">Konfirmasi Password</label>
 							<input type="password" name="first_name" placeholder="Password Confirmation" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password Confirmation'"
 							 required class="single-input-secondary">
-                        </div>
-                        <div class="mt-10">
-                            <button type="submit" class="genric-btn primary circle">Register</button>
-                        </div>                        
-					</form>
-                </div>
             </div>
+            <div class="mt-10 text-center">              
+              <button type="submit" class="genric-btn primary circle" onclick="validate()">Register</button>
+            </div>                        
+					</form>
+          </div>
+        </div>
       </div>
     </section>
     <!--================ End About Area =================-->
@@ -117,5 +123,19 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+    <script>
+      function validate(){
+        var myFile = document.getElementById('kartu');
+        if(myFile.files[0].size > 1000000)
+        {
+          alert("File terlalu besar! File maximal 1 mb.")
+        }
+        else
+        {
+          document.getElementById("myForm").submit();
+        }
+      }
+    </script>
+
   </body>
 </html>

@@ -266,7 +266,7 @@
 						<input
 						class="form-control"
 						name="EMAIL" placeholder="Masukkan kata kunci"
-						/>
+						required/>
 						<button class="click-btn btn btn-default">
 						<span>Cari</span>
 						</button>

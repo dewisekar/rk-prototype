@@ -31,7 +31,7 @@
 							class="form-control"
 							id="search_input"
 							placeholder="Search Here"
-						/>
+                            required/>
 						<button type="submit" class="btn"></button>
 						<span
 							class="ti-close"
@@ -124,7 +124,7 @@
             <h2 class="mb-2 text-white text-center">Upload Tugas Akhir</h2>
             <div class="row mt-0">
                 <div class="col-lg-8 col-md-8 ml-auto mr-auto">
-                    <form action="../uploadsuccess">
+                    <form action="../uploadsuccess" id="myForm">
 						<div class="mt-10 text-left ">
                             <label class="text-white"> Judul </label>
 							<input type="text" name="" placeholder="Judul" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Judul'"
@@ -176,8 +176,7 @@
                             <input type="text" name="" placeholder="Nama Belakang" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nama Belakang'"
                              required class="single-input">
                         </div>
-                        <div class="input-group-icon mt-10">
-                           
+                        <div class="input-group-icon mt-10">                           
                             <div class="form-select" id="default-select">
                                 <div class="mt-10 text-left ">
                                 <label class="text-white"> Bidang </label>
@@ -192,64 +191,74 @@
                                     </select>
                             </div>
                         </div>
-                        <div class="form-select" id="default-select">
-                                <div class="mt-10 text-left ">
-                                <label class="text-white"> Tahun </label>
-                                 <!-- <div class="icon"><i class="fas fa-school" aria-hidden="true"></i></div> -->
-                                <select>
-                                   <!--  <option value="1">Program Studi</option> -->
-                                    <option value="1">2019</option>
-                                    <option value="1">2018</option>
-                                    <option value="1">2017</option>
-                                    <option value="1">2016</option>
-                                    <option value="1">2015</option>
-                                    </select>
-                            </div>
+                        <div class="input-group-icon mt-10 text-left">
+                            <label class="text-white">Tahun</label>
+							<div class="form-select" id="default-select2">
+								<select>
+									<option value="1">Tahun</option>
+									<option value="1">2019</option>
+									<option value="1">2018</option>
+									<option value="1">2017</option>
+								</select>
+							</div>
                         </div>
-                          <div class="input-group-icon mt-10">
-                           
-                            <div class="form-select" id="default-select">
-                                <div class="mt-10 text-left ">
-                                <label class="text-white"> Bulan </label>
-                                 <!-- <div class="icon"><i class="fas fa-school" aria-hidden="true"></i></div> -->
-                                <select>
-                                   <!--  <option value="1">Program Studi</option> -->
+                        <div class="input-group-icon mt-10 text-left">
+                            <label class="text-white">Bulan</label>
+							<div class="form-select" id="default-select2">
+								<select>
+                                    <option value="1">Bulan</option>
                                     <option value="1">Januari</option>
                                     <option value="1">Feburari</option>
                                     <option value="1">Maret</option>
-                                    </select>
-                        <div class="form-select" id="default-select">
-                                <div class="mt-10 text-left ">
-                                <label class="text-white">Fakultas </label>
-                                 <!-- <div class="icon"><i class="fas fa-school" aria-hidden="true"></i></div> -->
-                                <select>
-                                   <!--  <option value="1">Program Studi</option> -->
+								</select>
+							</div>
+                        </div>
+                        <div class="input-group-icon mt-10 text-left">
+                            <label class="text-white">Fakultas</label>
+							<div class="form-select" id="default-select2">
+								<select>
+                                    <option value="1">Fakultas</option>
                                     <option value="1">FS</option>
                                     <option value="1">FTI</option>
-                                    <option value="1">Maret</option>
-                                    </select>
-                            </div>
-                         </div>
-                       <div class="form-select" id="default-select">
-                                <div class="mt-10 text-left ">
-                                <label class="text-white">Departemen </label>
-                                 <!-- <div class="icon"><i class="fas fa-school" aria-hidden="true"></i></div> -->
-                                <select>
-                                   <!--  <option value="1">Program Studi</option> -->
+								</select>
+							</div>
+						</div>
+                         <div class="input-group-icon mt-10 text-left">
+                            <label class="text-white">Departemen</label>
+							<div class="form-select" id="default-select2">
+								<select>
+                                    <option value="1">Departemen</option>
                                     <option value="1">T. Perkapalan</option>
                                     <option value="1">T. Sistem Perkapalan</option>
                                     <option value="1">T. Kelautan</option>
-                                    </select>
-                            </div>
-                         </div>
-                         <div class="mt-10 text-left ">
-                            <!-- <label class="text-white"> Jumlah Halaman </label> -->
+								</select>
+							</div>
+						</div>
+                        <div class="mt-10 text-left ">
+                            <label class="text-white">Jumlah Halaman</label>
                             <input type="text" name="" placeholder="Jumlah Halaman" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Jumlah Halaman'"
                              required class="single-input">
+                        </div>	
+                        <div class="mt-10 text-left ">
+                            <label class="text-white">File Tugas Akhir</label>
+                            <input type="file" id="kartu" name="" placeholder="Kartu Keanggotaan ITS" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kartu Keanggotaan ITS'"
+							 required class="single-input">
                         </div>
-						
+                        <div class="mt-10 text-left ">
+                            <label class="text-white">Kata Kunci</label>
+                            <input type="text" name="" placeholder="Kata Kunci 1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kata Kunci 1'"
+                             required class="single-input">
+                            <input type="text" name="" placeholder="Kata Kunci 2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kata Kunci 2'"
+                             required class="single-input">
+                            <input type="text" name="" placeholder="Kata Kunci 3" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kata Kunci 3'"
+                              class="single-input">
+                            <input type="text" name="" placeholder="Kata Kunci 4" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kata Kunci 4'"
+                            class="single-input">
+                            <input type="text" name="" placeholder="Kata Kunci 5" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kata Kunci 5'"
+                              class="single-input">
+                        </div>					
                         <div class="mt-10">
-                            <button type="submit" class="genric-btn primary circle">Upload</button>
+                            <button type="submit"  class="genric-btn primary circle" onclick="validate()">Unggah</button>
                         </div>                        
 					</form>
                 </div>
@@ -306,5 +315,21 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+    <script>
+        function validate()
+        {
+            var myFile = document.getElementById('kartu');
+            var eks = myFile.value.split('.')[1];
+            if(eks != "pdf")
+            {
+                alert("File harus berekstensi PDF!");
+            }
+            else
+            {
+                document.getElementById("myForm").submit();
+            }
+            
+        }
+    </script>
   </body>
 </html>

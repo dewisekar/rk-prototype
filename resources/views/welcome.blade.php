@@ -30,7 +30,7 @@
 							class="form-control"
 							id="search_input"
 							placeholder="Search Here"
-						/>
+						required/>
 						<button type="submit" class="btn"></button>
 						<span
 							class="ti-close"
@@ -155,7 +155,7 @@
 						<input
 						class="form-control"
 						name="" placeholder="Masukkan kata kunci" type="text"
-						/>
+						 required>
 						<button type="submit" class="click-btn btn btn-default">
 						<span>Cari</span>
 						</button>

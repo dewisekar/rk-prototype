@@ -31,7 +31,7 @@
 							class="form-control"
 							id="search_input"
 							placeholder="Search Here"
-						/>
+                            required/>
 						<button type="submit" class="btn"></button>
 						<span
 							class="ti-close"
